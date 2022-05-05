@@ -1,3 +1,8 @@
 main {
+  transform: skew(15deg, -10deg);
+  position: absolute;
+}
 
+.info {
+  transform: skew(-15deg, -5deg);
 }
