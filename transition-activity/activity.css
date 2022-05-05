@@ -1,1 +1,4 @@
-
+button:hover {
+    filter: ghostwhite(100%);
+    transition: 2s;
+  }
