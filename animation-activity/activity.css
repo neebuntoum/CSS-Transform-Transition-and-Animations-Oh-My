@@ -27,8 +27,9 @@ nav {
   opacity: 1;
 }
 
+
 @keyframes top {
-  from {}
+  from {}  
   to {}
 }
 
@@ -40,4 +41,37 @@ nav {
 @keyframes bottom {
   from {}
   to {}
+} 
+
+/* #top {
+  animation: rotation 2s infinite linear;
 }
+
+@keyframes top {
+  from {transform: rotate(0deg);
+  }
+
+  to {transform: rotate(350deg);
+  }
+} */
+/* @keyframes myAnimation{
+  0%{
+    opacity: 1;
+    transform: rotateX(90deg);
+  }
+  50%{
+    opacity: 0.5;
+    transform: rotateX(0deg);
+  }
+  100%{
+    display: none;
+    opacity: 0;
+    transform: rotateX(90deg);
+  }
+}
+
+#myelement{
+    animation-name: myAnimation;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+} */
